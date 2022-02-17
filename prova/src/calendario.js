@@ -4,15 +4,38 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Calendario(){
     return(
-        <div>    
-            <Card>
+        <div>
+          <section>
+            <Card className="shadow-sm card mb-3 border-bottom">
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
+                    <Card.Title>Calendário</Card.Title>
+                    <Card.Title>2021.1</Card.Title>
                     <Card.Text>
-                    With supporting text below as a natural lead-in to additional content.
+                    </Card.Text>
+                    <Card.Text>
+                    <small className="text-muted"></small>
+                    </Card.Text>
+                    <Card.Text>
+                    </Card.Text>
+                    <Card.Text>
+                    <small className="text-muted"></small>
+                    </Card.Text>
+                </Card.Body>
+                <Card.Body>
+                    <Card.Title>2021.2</Card.Title>
+                    <Card.Text>
+                    </Card.Text>
+                    <Card.Text>
+                    <small className="text-muted"></small>
+                    </Card.Text>
+                    <Card.Text>
+                    </Card.Text>
+                    <Card.Text>
+                    <small className="text-muted"></small>
                     </Card.Text>
                 </Card.Body>
             </Card>
+          </section>    
         </div>
     );
 }

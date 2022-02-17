@@ -8,6 +8,7 @@ import Clima from './clima';
 import Calendario from './calendario';
 import Foot from './components/foot';
 import Apresentacao from './apresentacao';
+import Contato from './contato';
 
 
 ReactDOM.render(
@@ -45,6 +46,12 @@ ReactDOM.render(
     <Calendario/>
   </React.StrictMode>,
   document.getElementById('ca')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Contato/>
+  </React.StrictMode>,
+  document.getElementById('con')
 );
 ReactDOM.render(
   <React.StrictMode>

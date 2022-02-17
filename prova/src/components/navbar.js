@@ -1,51 +1,28 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Nav from 'react-bootstrap/Nav';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function navBar(){
+function Bar(){
     return(
         <div>    
-            <Navbar bg="light" expand={false}>
+            <Navbar bg="success" variant="dark" expand={false}>
                 <Container fluid>
-                    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+                    <Navbar.Brand href={'index.html'}>TADS</Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
-                    <Navbar.Offcanvas
-                    id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel"
-                    placement="end"
-                    >
+                    <Navbar.Offcanvas navVariante="success" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end">
                     <Offcanvas.Header closeButton>
-                        <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                        <Offcanvas.Title  id="offcanvasNavbarLabel">TADS</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-                            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action5">
-                            Something else here
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav className="justify-content-end flex-grow-1 pe-3 bg-sucess" >
+                        <Nav.Link href={'index.html'}>Apresentação</Nav.Link>
+                        <Nav.Link href={'projeto.html'}>Projeto Pedagógico do Curso</Nav.Link>
+                        <Nav.Link href={'calendario.html'}>Calendário</Nav.Link>
+                        <Nav.Link href={'clima.html'}>Clíma</Nav.Link>
                         </Nav>
-                        <Form className="d-flex">
-                        <FormControl
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
-                            aria-label="Search"
-                        />
-                        <Button variant="outline-success">Search</Button>
-                        </Form>
                     </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Container>
@@ -54,4 +31,4 @@ function navBar(){
     );
 }
 
-export default navBar;
+export default Bar;

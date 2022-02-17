@@ -18,10 +18,10 @@ function Bar(){
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3 bg-sucess" >
-                        <Nav.Link href={'index.html'}>Apresentação</Nav.Link>
-                        <Nav.Link href={'projeto.html'}>Projeto Pedagógico do Curso</Nav.Link>
-                        <Nav.Link href={'calendario.html'}>Calendário</Nav.Link>
-                        <Nav.Link href={'clima.html'}>Clíma</Nav.Link>
+                        <Nav.Link href="#ap">Apresentação</Nav.Link>
+                        <Nav.Link href="#pro">Projeto Pedagógico do Curso</Nav.Link>
+                        <Nav.Link href="#ca">Calendário</Nav.Link>
+                        <Nav.Link href="#cli">Clíma</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                     </Navbar.Offcanvas>

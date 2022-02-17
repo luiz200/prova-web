@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import Bar from './components/navbar';
 import Carouse from './components/carousel';
+import Projeto from './projeto';
+import Clima from './clima';
+import Calendario from './calendario';
+import Foot from './components/foot';
+import Apresentacao from './apresentacao';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +21,36 @@ ReactDOM.render(
     <Carouse/>
   </React.StrictMode>,
   document.getElementById('slider')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Apresentacao/>
+  </React.StrictMode>,
+  document.getElementById('ap')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Projeto/>
+  </React.StrictMode>,
+  document.getElementById('pro')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Clima/>
+  </React.StrictMode>,
+  document.getElementById('cli')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Calendario/>
+  </React.StrictMode>,
+  document.getElementById('ca')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Foot/>
+  </React.StrictMode>,
+  document.getElementById('fo')
 );
 
 reportWebVitals();

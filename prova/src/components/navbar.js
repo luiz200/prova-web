@@ -16,7 +16,7 @@ function Bar(){
                         <Nav.Link href="#ap">Apresentação</Nav.Link>
                         <Nav.Link href="#pro">Projeto</Nav.Link>
                         <Nav.Link href="#ca">Calendário</Nav.Link>
-                        <Nav.Link href="#cli">Clíma</Nav.Link>
+                        <Nav.Link href="#cli">Clima</Nav.Link>
                         <Nav.Link href="#con">Contatos</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
